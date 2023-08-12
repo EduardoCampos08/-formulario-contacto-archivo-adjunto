@@ -29,7 +29,7 @@ echo "<script>alert('Los campos marcados con * son obligatorios');location.href 
 
     $mail->From     = $Email;
     $mail->FromName = $Nombre; 
-    $mail->AddAddress("tucorreo@gmail.com"); // Dirección a la que llegaran los mensajes.
+    $mail->AddAddress("lalitopro19@gmail.com"); // Dirección a la que llegaran los mensajes.
    
 // Aquí van los datos que apareceran en el correo que reciba
             
@@ -51,10 +51,10 @@ echo "<script>alert('Los campos marcados con * son obligatorios');location.href 
     $mail->SMTPSecure = "ssl";
     $mail->Host = "smtp.gmail.com"; //servidor smtp, esto lo puedes dejar igual
     $mail->Port = 465; //puerto smtp de gmail, tambien lo puedes dejar igual
-    $mail->Username = 'correo@gmail.com';  // Tu correo gmail
-    $mail->Password = 'password'; // Tu contrasena gmail
-    $mail->FromName = 'Tu nombre'; // 
-    $mail->From = 'correo@gmail.com'; //email de remitente desde donde se envía el correo, este caso para evitar spam es el mismo que tu correo gmail
+    $mail->Username = '19030188@itcelaya.edu.mx';  // Tu correo gmail
+    $mail->Password = 'elrubius24'; // Tu contrasena gmail
+    $mail->FromName = 'Eduardo Campos Frias'; // 
+    $mail->From = 'lalitopro19@gmail.com'; //email de remitente desde donde se envía el correo, este caso para evitar spam es el mismo que tu correo gmail
     
     if ($mail->Send())
     echo "<script>alert('Formulario enviado exitosamente, le responderemos lo más pronto posible.');location.href ='javascript:history.back()';</script>";
